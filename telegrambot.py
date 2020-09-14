@@ -3,8 +3,7 @@ x =" "  #ENTER ADAFRUIT_IO_USERNAME
 y = " "  #ENTER ADAFRUIT_IO_KEY
 from Adafruit_IO import Client, Feed
 aio = Client(x,y)
-feed=Feed(name='bot')
-result = aio.create_feed(feed)
+result = aio.create_feed(new)
 from Adafruit_IO import Data
 !pip install python-telegram-bot
 from Adafruit_IO import Client,Data
