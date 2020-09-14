@@ -1,4 +1,4 @@
-!pip install adafruit-io
+!pip install adafruit-io 
 x =" "  #ENTER ADAFRUIT_IO_USERNAME
 y = " "  #ENTER ADAFRUIT_IO_KEY
 from Adafruit_IO import Client, Feed
