@@ -1,1 +1,1 @@
-# Light-telegrmabot
+# Light-telegrambot
