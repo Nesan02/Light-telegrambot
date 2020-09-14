@@ -5,7 +5,6 @@ from Adafruit_IO import Client, Feed
 aio = Client(ADAFRUIT_IO_USERNAME,ADAFRUIT_IO_KEY)
 result = aio.create_feed(new)
 from Adafruit_IO import Data
-!pip install python-telegram-bot
 from Adafruit_IO import Client,Data
 from telegram.ext import Updater,CommandHandler
 def on(bot,update):
