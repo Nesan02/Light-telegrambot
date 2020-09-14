@@ -18,7 +18,7 @@ def off(bot,update):
   aio.create_data('bot123',Data(value = 0))
   bot.send_message(chat_id =chat_id,text ="Lights Off")
 
-updater = Updater('1355871998:AAH3b1LpYiuSr2Hhq4SLEN_qnT3NfxmssMM')     #Use Telegram Token HTTP API
+updater = Updater('1294830385:AAF_zy888DPBL2oIM9nvfQZYNPOMwWEm5CY')     #Use Telegram Token HTTP API
 dp =updater.dispatcher
 dp.add_handler(CommandHandler('on',on))
 dp.add_handler(CommandHandler('off',off))
