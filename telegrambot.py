@@ -1,4 +1,5 @@
 import os
+!pip install adafruit-io
 ADAFRUIT_IO_USERNAME = os.getenv('ADAFRUIT_IO_USERNAME') 
 ADAFRUIT_IO_KEY = os.getenv('ADAFRUIT_IO_KEY')
 from Adafruit_IO import Client, Feed
