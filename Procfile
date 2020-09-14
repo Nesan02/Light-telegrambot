@@ -1,1 +1,1 @@
-worker: python chandana-telebot.py
+worker: python telegrambot.py
