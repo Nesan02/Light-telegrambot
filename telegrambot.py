@@ -1,8 +1,9 @@
+import os
 !pip install adafruit-io 
-x =" "  #ENTER ADAFRUIT_IO_USERNAME
-y = " "  #ENTER ADAFRUIT_IO_KEY
+ADAFRUIT_IO_USERNAME = os.getenv('ADAFRUIT_IO_USERNAME') 
+ADAFRUIT_IO_KEY = os.getenv('ADAFRUIT_IO_KEY')
 from Adafruit_IO import Client, Feed
-aio = Client(x,y)
+aio = Client(ADAFRUIT_IO_USERNAME,ADAFRUIT_IO_KEY)
 result = aio.create_feed(new)
 from Adafruit_IO import Data
 !pip install python-telegram-bot
